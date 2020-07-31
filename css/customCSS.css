@@ -1,0 +1,180 @@
+#portfolio-sections {
+    padding-right:0px;
+    padding-left:0px;
+}
+
+#myScrollspy a {
+    text-align: right;
+    
+}
+
+.container-fluid {
+    background-color:transparent;
+    position:relative;
+
+}
+
+.col-md-10 {
+    padding-right:0px;
+    padding-left:0px;
+}
+
+
+
+body{
+    position:relative;
+    background-color: #ebebf2;
+    font-family: "Maven Pro", sans-serif;
+    color:#48464c;
+}
+
+#Intro-text{
+    height: 100vh;
+    background-color:black;
+}
+
+ ul.nav-pills {
+    top: 6vh;
+    position: fixed;
+  }
+
+.nav-item a {
+    color:#48464c;
+
+}
+
+.portfolio-section {
+    padding-top:3em;
+    padding-bottom:3em;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color:transparent;
+    color: #ffc200;
+
+}
+
+@media (min-width: 768px){
+.navbar-expand-md {
+background-color:transparent !important;
+height:3px;
+}
+}
+@media (max-width: 767px){
+.navbar-expand-md, .nav-pills {
+background-color:#7FDBFF !important;
+}
+}
+
+.title_bar {
+    border-top: 5px solid #000;
+    margin: 0 auto;
+    width: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.skill-card {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: .1rem auto 1rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-clip: padding-box;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-deck {
+    padding-right:2.5em;
+    padding-left:2.5em;
+}
+
+.project-card {
+    position: relative;
+    width:95%;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-clip: padding-box;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.project {
+    padding-left:0px;
+    padding-right:9px;
+        margin-bottom:2rem;
+}
+
+.skill-image {
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    width: 72px;
+    height: 72px;
+}
+
+.image-container {
+    padding: 0 15px;
+}
+
+.card-content {
+    padding: 20px;
+
+}
+
+.skill-title {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    margin-bottom:25px;
+    padding-bottom:14px;
+    text-align:left;
+
+}
+
+#Intro-text {
+    padding-top:5em;
+    padding-bottom:0px;
+    color:#ebebf2;
+}
+
+#introimg{
+    max-width:40vh;
+    vertical-align:  bottom;
+    border:0;
+}
+
+.portfolio-section:not(:first-child){
+    background-color:#F8F8F8;
+}
+
+#Experience-text{
+    text-align:left;
+}
+
+.nav-pills {
+    left:3.5vw;
+}
+
+.form-control{
+    margin:16px;
+}
+
+#Experience-text ul {
+    padding-left:1em;
+}
+
+.job-title {
+    font-style: italic;
+}
+
+.dontshow {
+    display:none;
+}
+
+.contact-form {
+    padding-right:3em;
+}
