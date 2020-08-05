@@ -33,6 +33,13 @@ body{
     background-color:black;
 }
 
+#introimg{
+    max-width:30%;
+    margin-top:5vh;
+    vertical-align:  bottom;
+    border:0;
+}
+
  ul.nav-pills {
     top: 6vh;
     position: fixed;
