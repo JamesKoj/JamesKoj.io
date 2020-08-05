@@ -34,7 +34,7 @@ body{
 }
 
 #introimg{
-    max-width:30%;
+    max-width:33%;
     margin-top:5vh;
     vertical-align:  bottom;
     border:0;
@@ -146,12 +146,6 @@ background-color:#7FDBFF !important;
     padding-top:5em;
     padding-bottom:0px;
     color:#ebebf2;
-}
-
-#introimg{
-    max-width:40vh;
-    vertical-align:  bottom;
-    border:0;
 }
 
 .portfolio-section:not(:first-child){
