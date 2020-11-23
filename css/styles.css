@@ -29,6 +29,10 @@ body{
 }
 
 #Intro-text{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../img/laptop-336378_1920.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
     background-color:black;
     display: flex;
     flex-direction: column;
@@ -41,6 +45,12 @@ body{
     margin-bottom:1.75vh;
     vertical-align:  bottom;
     border:0;
+}
+
+#intro-text--2 {
+    margin-top:13vh;
+    margin-bottom:1.75vh;
+    vertical-align:  center;
 }
 
  ul.nav-pills {
