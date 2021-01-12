@@ -42,6 +42,7 @@ body{
 @media (max-width: 767px) {
   #Intro-text {
     background-image: none;
+    color:black;
   }
 }
 
