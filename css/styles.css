@@ -41,8 +41,7 @@ body{
 
 @media (max-width: 767px) {
   body #Intro-text {
-    background-image: none;
-    color:black;
+    
   }
     #intro-button {
         border: 1px solid black;
