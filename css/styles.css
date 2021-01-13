@@ -44,8 +44,7 @@ body{
     
   }
     #intro-button {
-        border: 1px solid black;
-        margin-top: 10vh;
+        margin-top: 0.8em;
         padding: 1em;
     }
   body #portfolio-nav-md {
