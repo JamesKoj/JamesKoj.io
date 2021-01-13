@@ -98,7 +98,6 @@ body{
 }
 @media (max-width: 767px){
     .navbar-expand-md, .nav-pills {
-        background-color:black;
         color: #F8F8F8;
     }
   .nav-link {
