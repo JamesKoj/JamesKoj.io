@@ -49,6 +49,11 @@ body{
         margin-top: 10vh;
         padding: 1em;
     }
+  body #portfolio-nav-md {
+      background-color: #343a40;
+      color: #ebebf2;
+      
+    }
 }
 
 #introimg{
