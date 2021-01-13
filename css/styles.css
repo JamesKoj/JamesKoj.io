@@ -51,7 +51,6 @@ body{
     }
   body #portfolio-nav-md {
       background-color: #343a40;
-      color: #ebebf2;
       
     }
 }
@@ -75,10 +74,7 @@ body{
     position: fixed;
   }
 
-.nav-item a {
-    color:#48464c;
 
-}
 
 .portfolio-section {
     padding-top:3em;
@@ -100,6 +96,10 @@ body{
     #intro-button {
         display:none;
     }
+    
+    .nav-item a {
+    color:#48464c;
+    }
 }
 @media (max-width: 767px){
     .navbar-expand-md, .nav-pills {
@@ -107,6 +107,9 @@ body{
     }
   .nav-link {
       color: #F8F8F8;
+    }
+    .nav-item a {
+    color: #ebebf2;
     }
 }
 
