@@ -40,10 +40,13 @@ body{
 }
 
 @media (max-width: 767px) {
-  #Intro-text {
+  body #Intro-text {
     background-image: none;
-    color:black !important;
+    color:black;
   }
+    #intro-button {
+        border: 1px solid black;
+    }
 }
 
 #introimg{
@@ -83,14 +86,17 @@ body{
 }
 
 @media (min-width: 768px){
-.navbar-expand-md {
-background-color:transparent !important;
-height:3px;
-}
+    .navbar-expand-md {
+        background-color:transparent !important;
+        height:3px;
+    }
+    #intro-button {
+        display:none;
+    }
 }
 @media (max-width: 767px){
     .navbar-expand-md, .nav-pills {
-        background-color:black !important;
+        background-color:black;
         color: #F8F8F8;
     }
   .nav-link {
