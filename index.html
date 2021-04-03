@@ -298,27 +298,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
     
-<script>
-$.ajax({
-    url: 'https://cors-anywhere.herokuapp.com/https://chatbot-sentiment-api.herokuapp.com/',
-    headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*'
-    },
-    type: "POST", /* or type:"GET" or type:"PUT" */
-    dataType: "json",
-    data: 
-    {
-      qid: "start", user_response: "start"
-    },
-    success: function (result) {
-        console.log("success");
-    },
-    error: function () {
-        console.log("error");
-    }
-});
-</script>
+
 <script>   
     AOS.init(); 
 </script>
